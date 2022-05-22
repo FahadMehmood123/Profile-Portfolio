@@ -10,10 +10,6 @@ import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 const Intro = () => {
-  // Transition
-  // const transition = { duration: 2, type: "spring" };
-
-  // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
@@ -22,7 +18,6 @@ const Intro = () => {
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
-          {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hello! I Am</span>
           <span>Fahad Mehmood</span>
           <span>
